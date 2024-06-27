@@ -1,10 +1,9 @@
 #productList {
-  width: 20vw;
   border-spacing: 0; /* Remove default spacing between cells */
 }
 
 #productList tbody {
-  border-bottom: 10px solid transparent; /* Adjust the bottom border width to create space */
+  border-bottom: 10px solid transparent;
 }
 
 #productList tbody tr:nth-child(even) {
@@ -17,4 +16,20 @@
 
 #productList tfoot {
   font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: brown;
+  color: #f2f2f2;
 }
